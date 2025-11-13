@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسة الإخلاص - التعليم المتميز</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <span class="logo-text">مدرسة الإخلاص</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                <li><a href="#about" class="nav-link">من نحن</a></li>
+                <li><a href="#vision" class="nav-link">رؤيتنا</a></li>
+                <li><a href="#mission" class="nav-link">رسالتنا</a></li>
+                <li><a href="#stages" class="nav-link">المراحل الدراسية</a></li>
+                <li><a href="#quiz" class="nav-link">الاختبارات</a></li>
+                <li><a href="#contact" class="nav-link">اتصل بنا</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">مرحباً بك في مدرسة الإخلاص</h1>
+            <p class="hero-subtitle">مؤسسة تعليمية رائدة تقدم تعليماً متميزاً لجميع المراحل الدراسية</p>
+            <div class="hero-buttons">
+                <button onclick="scrollToSection('quiz')" class="btn btn-primary">
+                    <i class="fas fa-play"></i> ابدأ الاختبار الآن
+                </button>
+                <button onclick="scrollToSection('about')" class="btn btn-secondary">
+                    <i class="fas fa-info-circle"></i> اعرف المزيد
+                </button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1581078426770-6d336e5de7bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="مدرسة">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">من نحن</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        مدرسة الإخلاص هي مؤسسة تعليمية سودانية رائدة تأسست عام 2000، وتتميز بتقديم تعليم عالي الجودة
+                        يتوافق مع المناهج السودانية المعتمدة من وزارة التربية والتعليم.
+                    </p>
+                    <p class="about-description">
+                        نحن نؤمن بأهمية التعليم الشامل الذي يركز على الجوانب الأكاديمية والاجتماعية والنفسية للطلاب،
+                        ونسعى لإعداد جيل قادر على مواجهة تحديات المستقبل بثقة وكفاءة.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h3 class="stat-number">500+</h3>
+                            <p class="stat-label">طالب</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">50+</h3>
+                            <p class="stat-label">معلم</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">23+</h3>
+                            <p class="stat-label">سنة خبرة</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">95%</h3>
+                            <p class="stat-label">نسبة نجاح</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="عن المدرسة">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="vision">
+        <div class="container">
+            <div class="vision-content">
+                <div class="vision-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h2 class="vision-title">رؤيتنا</h2>
+                <p class="vision-text">
+                    أن نكون المؤسسة التعليمية الرائدة في السودان، مقدرين تعليماً متميزاً يلبي احتياجات العصر
+                    ويواكب التطورات التكنولوجية، مع الحفاظ على هويتنا العربية والإسلامية.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="mission">
+        <div class="container">
+            <div class="mission-content">
+                <div class="mission-icon">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <h2 class="mission-title">رسالتنا</h2>
+                <p class="mission-text">
+                    توفير بيئة تعليمية آمنة ومحفزة تساعد الطلاب على تحقيق أقصى إمكاناتهم، وتنمية مهاراتهم
+                    العقلية والاجتماعية، وإعدادهم ليكونوا مواطنين صالحين ومؤثرين في مجتمعهم.
+                </p>
+                <div class="mission-values">
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>التميز الأكاديمي</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>النمو الشخصي</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>القيم الأخلاقية</span>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>الابتكار والإبداع</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stages Section -->
+    <section id="stages" class="stages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">المراحل الدراسية</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="stages-grid">
+                <div class="stage-card">
+                    <div class="stage-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3 class="stage-title">المرحلة الابتدائية</h3>
+                    <p class="stage-description">
+                        تعليم أساسي متكامل يركز على بناء القواعد الأساسية في القراءة والكتابة والحساب
+                    </p>
+                    <ul class="stage-features">
+                        <li><i class="fas fa-check"></i> من الصف الأول إلى الصف الثامن</li>
+                        <li><i class="fas fa-check"></i> تعليم نشط وممتع</li>
+                        <li><i class="fas fa-check"></i> أنشطة ترفيهية وتعليمية</li>
+                    </ul>
+                </div>
+                <div class="stage-card">
+                    <div class="stage-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3 class="stage-title">المرحلة المتوسطة</h3>
+                    <p class="stage-description">
+                        تطوير المهارات الأكاديمية وتعميق المفاهيم في المواد الدراسية المختلفة
+                    </p>
+                    <ul class="stage-features">
+                        <li><i class="fas fa-check"></i> من الصف التاسع إلى الصف الثاني عشر</li>
+                        <li><i class="fas fa-check"></i> تخصص في المواد العلمية والأدبية</li>
+                        <li><i class="fas fa-check"></i> إعداد للمرحلة الجامعية</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">الاختبارات التفاعلية</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div id="quiz-setup" class="quiz-setup">
+                <div class="quiz-form">
+                    <div class="form-group">
+                        <label for="stage">المرحلة الدراسية</label>
+                        <select id="stage" class="form-control">
+                            <option value="">اختر المرحلة</option>
+                            <option value="primary">المرحلة الابتدائية</option>
+                            <option value="middle">المرحلة المتوسطة</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">المادة الدراسية</label>
+                        <select id="subject" class="form-control" disabled>
+                            <option value="">اختر المادة</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="difficulty">درجة الصعوبة</label>
+                        <select id="difficulty" class="form-control">
+                            <option value="easy">سهل</option>
+                            <option value="medium" selected>متوسط</option>
+                            <option value="hard">صعب</option>
+                        </select>
+                    </div>
+                    
+                    <button onclick="startQuiz()" class="btn btn-quiz">
+                        <i class="fas fa-play"></i> بدء الاختبار
+                    </button>
+                </div>
+            </div>
+            
+            <div id="quiz-container" class="quiz-container" style="display: none;">
+                <div class="quiz-header">
+                    <div class="quiz-info">
+                        <span id="quiz-progress">1/10</span>
+                        <span id="quiz-timer">00:00</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                </div>
+                
+                <div class="quiz-body">
+                    <div id="question-container" class="question-container">
+                        <!-- Question will be loaded here -->
+                    </div>
+                </div>
+                
+                <div class="quiz-footer">
+                    <button onclick="previousQuestion()" class="btn btn-secondary" id="prev-btn" disabled>
+                        <i class="fas fa-arrow-right"></i> السؤال السابق
+                    </button>
+                    <button onclick="nextQuestion()" class="btn btn-primary" id="next-btn">
+                        السؤال التالي <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button onclick="submitQuiz()" class="btn btn-success" id="submit-btn" style="display: none;">
+                        <i class="fas fa-check"></i> إنهاء الاختبار
+                    </button>
+                </div>
+            </div>
+            
+            <div id="quiz-result" class="quiz-result" style="display: none;">
+                <div class="result-content">
+                    <div class="result-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h2 class="result-title">نتيجة الاختبار</h2>
+                    <div class="result-score">
+                        <span id="score-percentage">0%</span>
+                    </div>
+                    <div class="result-details">
+                        <div class="detail-item">
+                            <span>الإجابات الصحيحة:</span>
+                            <span id="correct-answers">0</span>
+                        </div>
+                        <div class="detail-item">
+                            <span>الإجابات الخاطئة:</span>
+                            <span id="wrong-answers">0</span>
+                        </div>
+                        <div class="detail-item">
+                            <span>المدة الزمنية:</span>
+                            <span id="time-taken">00:00</span>
+                        </div>
+                    </div>
+                    <div class="result-message" id="result-message">
+                        <!-- Message will be displayed here -->
+                    </div>
+                    <button onclick="resetQuiz()" class="btn btn-primary">
+                        <i class="fas fa-redo"></i> اختبار جديد
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">معرض الصور</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="الفصل الدراسي">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="المكتبة">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="ساحة اللعب">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1577896851231-70ef188817c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="المختبر">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1569074187119-c87815b476a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="النشاط الرياضي">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="الحاسوب">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">اتصل بنا</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>العنوان</h3>
+                            <p>شارع النيل، أم درمان، السودان</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>الهاتف</h3>
+                            <p>+249 123 456 789</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>البريد الإلكتروني</h3>
+                            <p>info@alikhlass.edu.sd</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-text">
+                            <h3>ساعات العمل</h3>
+                            <p>الأحد - الخميس: 7:30 ص - 2:30 م</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form onsubmit="handleContactForm(event)">
+                        <div class="form-group">
+                            <input type="text" placeholder="الاسم الكامل" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="البريد الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="رقم الهاتف" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="رسالتك" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> إرسال الرسالة
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <span class="logo-text">مدرسة الإخلاص</span>
+                    </div>
+                    <p class="footer-description">
+                        مؤسسة تعليمية رائدة تقدم تعليماً متميزاً لجميع المراحل الدراسية
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#stages">المراحل الدراسية</a></li>
+                        <li><a href="#quiz">الاختبارات</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">المواد الدراسية</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">الرياضيات</a></li>
+                        <li><a href="#">اللغة العربية</a></li>
+                        <li><a href="#">اللغة الإنجليزية</a></li>
+                        <li><a href="#">العلوم</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">النشرة البريدية</h3>
+                    <p class="footer-description">
+                        اشترك للحصول على آخر الأخبار والتحديثات
+                    </p>
+                    <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 مدرسة الإخلاص. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/database.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/main.js"></script>
+</body>
+  </html>
